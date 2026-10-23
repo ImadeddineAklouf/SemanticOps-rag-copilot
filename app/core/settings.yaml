@@ -1,0 +1,20 @@
+project:
+  name: SemanticOps RAG
+  version: 0.1.0
+  environment: dev
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 50
+
+retrieval:
+  top_k: 5
+
+vectorstore:
+  collection_name: api
+
+uploads:
+  directory: uploads
+
+monitoring:
+  enabled: true

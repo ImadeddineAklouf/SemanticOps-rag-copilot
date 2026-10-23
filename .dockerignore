@@ -1,0 +1,12 @@
+.venv
+.git
+.pytest_cache
+__pycache__
+*.pyc
+
+# Never bake secrets or local data into the image
+.env
+data
+uploads
+
+.coverage
